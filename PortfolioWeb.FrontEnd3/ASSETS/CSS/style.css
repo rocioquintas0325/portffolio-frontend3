@@ -1,3 +1,10 @@
+body{
+    background-image:url(../IMG/descarga\ \(12\).jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
 .navbar.navbar-expand-lg.bg-danger{
 background-color: rgb(150, 5, 5) !important;
 }
@@ -5,7 +12,7 @@ i.fa-brands.fa-facebook.fa-3x:hover{
 color:rgb(25, 6, 132)
 }
 i.fa-brands.fa-github.fa-3x:hover{
-color:antiquewhite
+color:rgb(167, 17, 159)
 }
 i.fa-brands.fa-instagram.fa-3x:hover{
 background: rgb(92,7,149);
@@ -14,10 +21,29 @@ background: -webkit-linear-gradient(90deg, rgba(92,7,149,1) 7%, rgba(253,29,83,1
 background: linear-gradient(90deg, rgba(92,7,149,1) 7%, rgba(253,29,83,1) 52%, rgba(252,176,69,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5c0795",endColorstr="#fcb045",GradientType=1);
 }
-i.fa-solid.fa-user.fa-3x:hover{
-    color:antiquewhite
+i.fa-solid.fa-user.fa-3x:hover,
+i.fa-solid.fa-user-lock.fa-3x:hover{
+    color:rgb(64, 211, 230)
+
 }
+.fa-solid.fa-user.fa-3x,
+.fa-solid.fa-user-lock.fa-3x,
+.fa-brands.fa-instagram.fa-3x,
+.fa-brands.fa-github.fa-3x,
+.fa-brands.fa-facebook.fa-3x{
+    color: antiquewhite;
+}
+
 .list-group{
     --bs-list-group-bg: transparent; 
     --bs-list-group-border-color: transparent;
+}
+
+section.about, section.Dashboard{
+    margin-top: 60rem;
+}
+section.about{ 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
